@@ -21,6 +21,7 @@
 		4C53549218EB3A67005B12F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C53547418EB3A67005B12F5 /* UIKit.framework */; };
 		4C53549A18EB3A67005B12F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C53549818EB3A67005B12F5 /* InfoPlist.strings */; };
 		4C53549C18EB3A68005B12F5 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C53549B18EB3A68005B12F5 /* Git_TestTests.m */; };
+		4C5354A718EB3D01005B12F5 /* TPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5354A618EB3D01005B12F5 /* TPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4C53549718EB3A67005B12F5 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		4C53549918EB3A67005B12F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C53549B18EB3A68005B12F5 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4C5354A518EB3D01005B12F5 /* TPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPTest.h; path = ../TPTest.h; sourceTree = "<group>"; };
+		4C5354A618EB3D01005B12F5 /* TPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPTest.m; path = ../TPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4C53548218EB3A67005B12F5 /* Main.storyboard */,
 				4C53548518EB3A67005B12F5 /* TPViewController.h */,
 				4C53548618EB3A67005B12F5 /* TPViewController.m */,
+				4C5354A518EB3D01005B12F5 /* TPTest.h */,
+				4C5354A618EB3D01005B12F5 /* TPTest.m */,
 				4C53548818EB3A67005B12F5 /* Images.xcassets */,
 				4C53547718EB3A67005B12F5 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				4C53548718EB3A67005B12F5 /* TPViewController.m in Sources */,
 				4C53548118EB3A67005B12F5 /* TPAppDelegate.m in Sources */,
 				4C53547D18EB3A67005B12F5 /* main.m in Sources */,
+				4C5354A718EB3D01005B12F5 /* TPTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
